@@ -1,0 +1,32 @@
+{
+  "name": "mhaarseth-joker",
+  "version": "0.1.0",
+  "description": "Module assignment on setting up working environments",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhaarseth/joker.git"
+  },
+  "keywords": [
+    "git",
+    "terminal",
+    "practice"
+  ],
+  "author": "M. Haarseth <mhaarseth@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhaarseth/joker/issues"
+  },
+  "homepage": "https://github.com/mhaarseth/joker#readme",
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1"
+  }
+}
